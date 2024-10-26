@@ -3,8 +3,8 @@
 
 const int REFERENCE_NUMBER{0b10101010};
 const int DATA_PIN{13};
-const int BAUD_RATE{500}; // Baud rate in milliseconds
-const bool writeMode{false}; // If true, than write mode. If false, then read mode.
+const int BAUD_RATE{50}; // Baud rate in milliseconds
+const bool writeMode{true}; // If true, than write mode. If false, then read mode.
 
 void transmitDataViaDigitalPin(int value, int pin, int baudRate);
 int readDataViaDigitalPin(int pin, int baudRate);
@@ -42,7 +42,7 @@ void loop() {
 int readDataViaDigitalPin(int dataPin, int baudRate) {
   delay(baudRate);
   int result{0};
-  
+
   for(int i{0}; i < 8; ++i) {
     int resultBit = digitalRead(dataPin);
     Serial.print("Bit "); Serial.print(i); Serial.print(": ");
@@ -50,6 +50,8 @@ int readDataViaDigitalPin(int dataPin, int baudRate) {
     result += resultBit << i;
     delay(baudRate);
   }
+
+  delay(baudRate);
 
   return result;
 }
