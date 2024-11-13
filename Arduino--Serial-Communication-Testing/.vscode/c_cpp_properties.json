@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Users/adria/Documents/Academics/ECE198 - Project Studio/ECE198-Automated-Greenhouse/Serial-Communication-Testing/Arduino--Serial-Communication-Testing/include",
-                "C:/Users/adria/Documents/Academics/ECE198 - Project Studio/ECE198-Automated-Greenhouse/Serial-Communication-Testing/Arduino--Serial-Communication-Testing/src",
+                "C:/Users/adria/Documents/Academics/ECE198 - Project Studio/ECE198-Greenr/Serial-Communication-Testing/Arduino--Serial-Communication-Testing/include",
+                "C:/Users/adria/Documents/Academics/ECE198 - Project Studio/ECE198-Greenr/Serial-Communication-Testing/Arduino--Serial-Communication-Testing/src",
                 "C:/Users/adria/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/adria/.platformio/packages/framework-arduino-avr/variants/standard",
                 "C:/Users/adria/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -22,8 +22,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Users/adria/Documents/Academics/ECE198 - Project Studio/ECE198-Automated-Greenhouse/Serial-Communication-Testing/Arduino--Serial-Communication-Testing/include",
-                    "C:/Users/adria/Documents/Academics/ECE198 - Project Studio/ECE198-Automated-Greenhouse/Serial-Communication-Testing/Arduino--Serial-Communication-Testing/src",
+                    "C:/Users/adria/Documents/Academics/ECE198 - Project Studio/ECE198-Greenr/Serial-Communication-Testing/Arduino--Serial-Communication-Testing/include",
+                    "C:/Users/adria/Documents/Academics/ECE198 - Project Studio/ECE198-Greenr/Serial-Communication-Testing/Arduino--Serial-Communication-Testing/src",
                     "C:/Users/adria/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/adria/.platformio/packages/framework-arduino-avr/variants/standard",
                     "C:/Users/adria/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
